@@ -1,8 +1,11 @@
-// ConsoleApplication3.cpp : Defines the entry point for the console application.
-//
+/* Implementation of Rock-Paper-Scissors
+Keeps tracks of wins, losses, and draws.
+Lets user choose what to throw, then reports
+results and updates record. 
+*/
 
 
-
+// uses includes from stdafx
 #include "stdafx.h"
 #define ROCK 0
 #define PAPER 1
@@ -95,6 +98,7 @@ int main()
 	
 }
 
+//Function to add
 void printChoice(int i)
 {
 	switch (i)
